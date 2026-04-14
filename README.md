@@ -1,12 +1,16 @@
 # Source Code Summarization using Seq2Seq LSTM
 
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Keras](https://img.shields.io/badge/Keras-LSTM-red)
+
 An MSc final project implementing an **encoder-decoder LSTM model** that automatically generates natural language summaries for Python source code functions.
 
 ## Overview
 
 Reading and understanding code is one of the most time-consuming parts of software development. This project explores using deep learning — specifically a sequence-to-sequence (Seq2Seq) architecture — to automate the generation of concise natural language descriptions from raw source code.
 
-Given a Python function body, the model produces a short textual summary describing what the function does.
+Given a Python function body, the model produces a short textual summary describing what the function does. This has direct applications in code review automation, developer tooling, and AI-assisted documentation generation.
 
 **Example:**
 ```
